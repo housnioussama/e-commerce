@@ -1,0 +1,62 @@
+
+
+    
+    .form-login {
+    max-width:60%;
+    padding:40px;
+    border-radius:30px;
+    margin:0 auto;
+    
+    }
+    textarea{
+        resize: none;
+        
+    }
+    
+    input{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .form-login .form-login-heading{
+    color:#337ab7;
+    text-align:center;
+    font-size: large;
+    
+    }
+    select{
+        width: 100%;
+    }
+    .form-login .form-control,select {
+    position:relative;
+    height:auto;
+    box-sizing:border-box;
+    padding:10px;
+    font-size:16px;
+    
+    }
+    
+    .form-login input[type="text"] {
+    margin-bottom:5px;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius: 0;
+    
+    }
+    
+    .form-login input[type="password"] {
+    margin-bottom:10px;
+    border-top-left-radius: 0;
+    border-top-right-radius:0;
+    
+    
+    }
+    
+    
+    form a{
+        margin-right: 30px;
+    }
+    footer{
+
+        display: flex;
+    }
+    
+    

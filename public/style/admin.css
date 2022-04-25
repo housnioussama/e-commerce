@@ -1,0 +1,60 @@
+*{
+
+   
+    font-family: 'spartan',sans-serif;
+}
+
+
+
+header{
+    
+display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(199, 223, 199);
+}
+
+header h1{
+color: black;
+padding:20px 0 0 20px;
+}
+.main divi {
+
+ 
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 30px;
+
+
+}
+.main{
+    float:left;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+  
+}
+.main div{
+    position: relative;
+    margin: 20px;
+ height: 200px;
+ width: 300px;
+ background-color: #ee96fd;
+ 
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+h4{
+    
+    position: absolute;
+    font-size: 30px;
+  left: 26%;
+
+    
+    
+    
+}
